@@ -17,9 +17,16 @@
     "url": "https://github.com/falcaoaugustos/falcaoaugustos.github.io/issues"
   },
   "homepage": "https://github.com/falcaoaugustos/falcaoaugustos.github.io#readme",
-  "dependencies": {
+  "devDependencies": {
     "browser-sync": "^2.18.13",
     "pug": "^2.0.0-rc.4",
     "stylus": "^0.54.5"
+  },
+  "scripts": {
+    "clean": "rm -rf dist && mkdir dist",
+    "build:templates:pug": "node tasks/build/templates.js",
+    "build:templates": "npm run build:templates:pug",
+    "build": "npm run clean && npm run build:templates",
+    "serve": "browser-sync start -s dist -f dist"
   }
 }
