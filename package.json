@@ -1,0 +1,25 @@
+{
+  "name": "falcaoaugustos.github.io",
+  "version": "1.0.0",
+  "description": "My personal landing page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/falcaoaugustos/falcaoaugustos.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/falcaoaugustos/falcaoaugustos.github.io/issues"
+  },
+  "homepage": "https://github.com/falcaoaugustos/falcaoaugustos.github.io#readme",
+  "dependencies": {
+    "browser-sync": "^2.18.13",
+    "pug": "^2.0.0-rc.4",
+    "stylus": "^0.54.5"
+  }
+}
