@@ -1,0 +1,18 @@
+{
+  "about": {
+    "title":"falcaoaugustos",
+    "description":"My personal landing page",
+    "author":"falcaoaugustos",
+    "canonical":"http://falcaoaugustos.github.io",
+    "image":"images/banner.png",
+    "mobile":{
+      "themeColor":"#543662"
+    },
+    "socialNetworks": {
+      "github": "falcaoaugustos",
+      "facebook": "falcaoaugustos",
+      "twitter": "falcaoaugustos",
+      "instagram":"falcaoaugustos"
+    }
+  }
+}
