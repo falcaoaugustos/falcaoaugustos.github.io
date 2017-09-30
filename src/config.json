@@ -25,5 +25,17 @@
       "title": "Node",
       "description": "Node.js is my first choice when implementing frontend web apps."
     }
+  ],
+  "projects": [
+    {
+      "title": "blau",
+      "link": "http://blaugame.com/",
+      "description": "blau is a game where your goal is the simplest possible one: get to the end of each level. How? By guiding blau - actually, an abstract black circle - through many simple - yet elegant - puzzles, avoiding physics-based traps and collecting shapes."
+    },
+    {
+      "title": "stalkr",
+      "link": "http://getstal.kr/",
+      "description": "stalkr is a simple–yet powerful–set of tools which gathers data from both continuous integration and application infrastructure monitoring tools in order to make it easier to monitor the whole developing process, in a way the entire team can see at a glance, from the very first commit to the final release."
+    }
   ]
 }
