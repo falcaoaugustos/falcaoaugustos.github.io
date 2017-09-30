@@ -1,13 +1,13 @@
 {
   "about": {
-    "title":"falcaoaugustos",
-    "description":"Hi, I'm a just knowledge explorer, open-source contributor, always on the lookout for new challenges. Here I describe some of my passions: share knowledge, design and implementation of projects, programming contests, new technologies, table tennis, basketball, games, music. I'm currently working as an iOS • watchOS • tvOS developer at Apple Developer Academy (former) BEPiD). I like going to in meetups and whenever possible I help to organize some local meetings.",
-    "author":"falcaoaugustos",
-    "email":"falcaoaugustos@gmail.com",
-    "canonical":"http://falcaoaugustos.github.io",
-    "image":"images/banner.png",
-    "mobile":{
-      "themeColor":"#543662"
+    "title": "falcaoaugustos",
+    "description": "Hi, I'm a just knowledge explorer, open-source contributor, always on the lookout for new challenges. Here I describe some of my passions: share knowledge, design and implementation of projects, programming contests, new technologies, table tennis, basketball, games, music. I'm currently working as an iOS • watchOS • tvOS developer at Apple Developer Academy (former) BEPiD). I like going to in meetups and whenever possible I help to organize some local meetings.",
+    "author": "falcaoaugustos",
+    "email": "falcaoaugustos@gmail.com",
+    "canonical": "http://falcaoaugustos.github.io",
+    "image": "images/banner.png",
+    "mobile": {
+      "themeColor": "#543662"
     },
     "socialNetworks": {
       "github": "falcaoaugustos",
@@ -15,5 +15,15 @@
       "twitter": "falcaoaugustos",
       "instagram":"falcaoaugustos"
     }
-  }
+  },
+  "technologies": [
+    {
+      "title": "Swift",
+      "description": "With 2 years of experience developing for the Apple ecosystem, I can prototype and develop great mobile applications."
+    },
+    {
+      "title": "Node",
+      "description": "Node.js is my first choice when implementing frontend web apps."
+    }
+  ]
 }
