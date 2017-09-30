@@ -1,7 +1,11 @@
 {
+  "welcome": {
+    "title": "> HEY, THERE!",
+    "description": "I'm a just knowledge explorer, open-source contributor. Here I describe some of my passions: share knowledge, design and implementation of projects, programming contests, new technologies, table tennis, basketball, games, music."
+  },
   "about": {
     "title": "falcaoaugustos",
-    "description": "Hi, I'm a just knowledge explorer, open-source contributor, always on the lookout for new challenges. Here I describe some of my passions: share knowledge, design and implementation of projects, programming contests, new technologies, table tennis, basketball, games, music. I'm currently working as an iOS • watchOS • tvOS developer at Apple Developer Academy (former) BEPiD). I like going to in meetups and whenever possible I help to organize some local meetings.",
+    "description": "I'm a BSC Engineering Computer student at IFCE, always on the lookout for new challenges. I'm currently working as an iOS • watchOS • tvOS developer at Apple Developer Academy (former) BEPiD). I like going to in meetups and whenever possible I help to organize some local meetings.",
     "author": "falcaoaugustos",
     "email": "falcaoaugustos@gmail.com",
     "canonical": "http://falcaoaugustos.github.io",
