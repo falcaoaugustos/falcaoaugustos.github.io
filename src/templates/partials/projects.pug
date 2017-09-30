@@ -1,1 +1,10 @@
 section#projects.Content
+  .Container
+    .Title.center.margin
+      span.text Projects
+    .Projects
+      each project in projects
+        .topic
+          a(href=`${project.link}`, title=`${project.title}` target='_blank')
+            img(src=`images/${project.title.toLowerCase()}.png`, alt=`${project.title} logo`)
+          p #{project.description}
