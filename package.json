@@ -4,7 +4,15 @@
   "description": "My personal landing page.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rm -rf dist && mkdir dist",
+    "build:templates:pug": "node tasks/build/templates.js",
+    "build:templates": "npm run build:templates:pug",
+    "build:styles:stylus": "mkdir -p dist/styles && stylus -c src/styles/main.styl -o dist/styles/main.css",
+    "build:styles": "npm run build:styles:stylus",
+    "build:images:imagemin": "imagemin src/images/**/* -o dist/images",
+    "build:images": "npm run build:images:imagemin",
+    "build": "npm run clean && npm run build:templates && npm run build:styles && npm run build:images",
+    "serve": "browser-sync start -s dist -f dist"
   },
   "repository": {
     "type": "git",
@@ -19,16 +27,8 @@
   "homepage": "https://github.com/falcaoaugustos/falcaoaugustos.github.io#readme",
   "devDependencies": {
     "browser-sync": "^2.18.13",
+    "imagemin-cli": "^3.0.0",
     "pug": "^2.0.0-rc.4",
     "stylus": "^0.54.5"
-  },
-  "scripts": {
-    "clean": "rm -rf dist && mkdir dist",
-    "build:templates:pug": "node tasks/build/templates.js",
-    "build:templates": "npm run build:templates:pug",
-    "build:styles:stylus": "mkdir -p dist/styles && stylus -c src/styles/main.styl -o dist/styles/main.css",
-    "build:styles": "npm run build:styles:stylus",
-    "build": "npm run clean && npm run build:templates && npm run build:styles",
-    "serve": "browser-sync start -s dist -f dist"
   }
 }
