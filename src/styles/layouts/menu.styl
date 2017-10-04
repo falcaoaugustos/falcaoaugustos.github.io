@@ -10,8 +10,6 @@
     top: 0
     padding: 15px
     z-index: 3
-    font-family: Cursive, Souvenir, serif
-    font-size: 1.2rem
     a
       position: relative
       text-decoration: none
@@ -64,6 +62,15 @@
           visibility: visible
           transform: scaleX(1)
         opacity: 1
+
+@media screen and (max-width: 800px)
+  #Menu
+    .left
+      padding: 15px 10px
+    .right
+      padding: 15px 10px
+      a
+        padding: 0 0 0 10px        
 
 @media screen and (max-width: 450px)
   #Menu
