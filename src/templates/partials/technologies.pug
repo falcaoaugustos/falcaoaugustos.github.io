@@ -1,9 +1,0 @@
-section#technologies.Content
-  .Container
-    .Title.center.margin
-      span.text Techonologies I work with
-    .Technologies
-      each technology in technologies
-        .topic
-          img(src=`images/${technology.title.toLowerCase()}.png`, alt=`${technology.title} logo`)
-          p #{technology.description}
