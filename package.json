@@ -13,7 +13,8 @@
     "build:images:imagemin": "imagemin src/images/**/* -o dist/images",
     "build:images": "npm run build:images:imagemin",
     "build": "npm run clean && npm run build:templates && npm run build:scripts && npm run build:styles && npm run build:images",
-    "serve": "browser-sync start -s dist -f dist"
+    "serve": "browser-sync start -s dist -f dist",
+    "deploy": "node tasks/deploy/gh-pages.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
   "homepage": "https://github.com/falcaoaugustos/falcaoaugustos.github.io#readme",
   "devDependencies": {
     "browser-sync": "^2.18.13",
+    "gh-pages": "^1.0.0",
     "imagemin-cli": "^3.0.0",
     "pug": "^2.0.0-rc.4",
     "stylus": "^0.54.5"
