@@ -26,9 +26,15 @@
 
 @media screen and (max-width: 850px)
   .Content
-    padding: 40px 25px
+    padding: 70px 25px
   .Container
     width: 100%
   .Content
+    &.medium, &.small
+      min-height: auto
+
+@media screen and (max-width: 450px)
+  .Content
+    padding: 40px 25px
     &.medium, &.small
       min-height: auto
