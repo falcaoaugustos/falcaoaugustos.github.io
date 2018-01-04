@@ -27,6 +27,10 @@
       "description": "With 2 years of experience developing for the Apple ecosystem, I can prototype and develop great mobile applications."
     },
     {
+      "title": "ObjectiveC",
+      "description": "I have learnt how to develop and how to maintain iOS applications legacy code too for the Apple ecosystem."
+    },
+    {
       "title": "Node",
       "description": "Node.js is my first choice when implementing frontend web apps."
     }
@@ -41,6 +45,16 @@
       "title": "stalkr",
       "link": "http://getstal.kr/",
       "description": "stalkr is a simple–yet powerful–set of tools which gathers data from both continuous integration and application infrastructure monitoring tools in order to make it easier to monitor the whole developing process, in a way the entire team can see at a glance, from the very first commit to the final release."
+    },
+    {
+      "title": "uTilePuzzle",
+      "link": "https://github.com/falcaoaugustos/uTilePuzzle/",
+      "description": "uTilePuzzle is the sliding tile puzzle to tvOS. Now you can play this classic in your Smart TV. You just have to download it and the rest is under your control."
+    },
+    {
+      "title": "AoRT",
+      "link": "https://itunes.apple.com/br/app/age-of-robots-tactics/id1246864215/",
+      "description": "Enter a new futuristic world in this tactic game full of different robot characters and epic battles. Set your formation and battle against evil enemies. Discover new characters and improve your formation and battle strategy to become the strongest general in the world."
     }
   ]
 }
