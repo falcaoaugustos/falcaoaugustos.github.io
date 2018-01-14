@@ -54,7 +54,12 @@
     {
       "title": "AoRT",
       "link": "https://itunes.apple.com/br/app/age-of-robots-tactics/id1246864215/",
-      "description": "Enter a new futuristic world in this tactic game full of different robot characters and epic battles. Set your formation and battle against evil enemies. Discover new characters and improve your formation and battle strategy to become the strongest general in the world."
+      "description": "Age of Robots Tactics is a game where you will enter a new futuristic world in this tactic game full of different robot characters and epic battles. Set your formation and battle against evil enemies. Discover new characters and improve your formation and battle strategy to become the strongest general in the world."
+    },
+    {
+      "title": "disturbia",
+      "link": "https://github.com/falcaoaugustos/disturbia/",
+      "description": "disturbia is a game where your goal is the simplest possible one: get as far as possible in a crazy endless run. How? Keeping the Mikhail Zakhar's insanity low. You can do that dodging bad scientists and getting some medicines."
     }
   ]
 }
